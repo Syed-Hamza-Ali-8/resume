@@ -1,0 +1,88 @@
+h1 {
+    color: rgb(197, 124, 15);
+    text-decoration: underline;
+    background-color: rgb(0, 0, 0);
+    font-size: 2em;
+    font-family: sans-serif;
+    align-items: center;
+    margin: 2px;
+    padding: 2em;
+    position: relative;
+}
+
+
+#num {
+    display: flex;
+    justify-content: end;
+    color: rgb(255, 255, 255);
+    position: absolute;
+    right: 80px;
+    top: 100px;
+    background-color: brown;
+    box-shadow: 10px 10px 30px rgb(255, 0, 0);
+    text-decoration: none;
+    font-size: small;
+    font-family: sans-serif;
+    font-style: italic;
+}
+
+fieldset {
+    background-color: rgb(134, 150, 69);
+    color: rgb(0, 0, 0);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+#personal {
+    border: 2px solid rgb(18, 152, 179);
+    font-size: small;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+    background-color: brown;
+    position: absolute;
+}
+
+#personal:hover {
+    background-color: #ED1C24;
+    text-decoration: underline;
+}
+
+fieldset {
+    background-color: rgb(134, 150, 69);
+    color: rgb(0, 0, 0);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+#skill {
+    border: 2px solid rgb(18, 152, 179);
+    font-size: small;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+    background-color: brown;
+    position: absolute;
+}
+#skill:hover{
+    background-color: #ED1C24;
+    text-decoration:underline;
+}
+#exp{
+    border: 2px solid rgb(18, 152, 179);
+    font-size: small;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+    background-color: brown;
+    position: absolute;
+}
+#exp:hover{
+    background-color: #ED1C24;
+    text-decoration:underline;
+}
+#foot{
+    background-color: rgb(36, 103, 186);
+    color: black;
+    font-size: large;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+}
+a{
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
